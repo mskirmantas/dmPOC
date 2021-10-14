@@ -58,3 +58,19 @@ h4 {
   font-weight: 400;
   text-decoration: underline;
 }
+
+.App {
+  position: relative;
+  z-index: 0;
+}
+
+.Modal {
+  position: absolute;
+
+  z-index: 1;
+  background-color: orange;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  color: black;
+}
